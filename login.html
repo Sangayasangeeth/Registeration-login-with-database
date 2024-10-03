@@ -1,0 +1,39 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>  
+
+    <body>
+        <div class="container">
+            <form action="login.php" method="post" id="form">
+                <h1>LOGIN</h1>
+                <div class="container2">
+                    <label>Username</label>
+                    <!-- Add name attribute -->
+                    <input type="text" name="username" id="username" placeholder="Enter your username" required>
+                    <small>Error message</small>
+                </div>
+
+                <div class="container2">
+                    <label>Password</label>
+                    <!-- Add name attribute -->
+                    <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                    <small>Error message</small>
+                </div>
+
+                <button id="submit">LOGIN</button>
+                <br><br>
+
+                <a href="register.html">Don't have an account??</a>
+            </form>
+        </div>
+
+        <script src="own.js"></script>
+    </body>
+
+    </html>

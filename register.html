@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION PAGE</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="register.php" method="post" id="form" >
+            <h1>REGISTRATION</h1>
+
+            <div class="container2">
+                <label>Name</label>
+                <input type="text" id="name1" name="name1" placeholder="Enter your name">
+
+                <small>Error message</small>
+            </div>
+
+            <div class="container2">
+                <label>Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username">
+
+                <small>Error message</small>
+            </div>
+
+            <div class="form-row">
+                <div class="container2">
+                    <label>Gender</label>
+                    <select name="gender" id="gender">
+                        <option id="selcol" value="Select" disabled selected>Select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <small>Error message</small>
+                </div>
+
+                <div class="container2">
+                    <label>Phone Number</label>
+                    <input type="number" id="phonenum" name="phonenum" placeholder="Enter your number">
+                    <small>Error message</small>
+
+                </div>
+            </div>
+
+            <div class="container2">
+                <label>Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                <small>Error message</small>
+
+            </div>
+
+            <div class="container2">
+                <label>Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+                <small>Error message</small>
+
+            </div>
+
+            <div class="container2">
+                <label>Confirm Password</label>
+                <input type="password" id="password2" name="password2" placeholder="Confirm password">
+                <small>Error message</small>
+
+            </div>
+            <button>SUBMIT</button>
+            <br><br>
+
+            <a href="login.html">Already having account</a>
+
+        </form>
+
+    </div>
+
+    <script src="own.js"></script>
+</body>
+
+</html>
